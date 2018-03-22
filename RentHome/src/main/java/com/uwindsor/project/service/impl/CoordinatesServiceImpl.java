@@ -9,7 +9,9 @@ import org.springframework.transaction.annotation.*;
 import com.uwindsor.project.dao.CoordinatesRepository;
 import com.uwindsor.project.models.Coordinates;
 import com.uwindsor.project.service.CoordinatesService;
-
+/**
+ * @author Afnan Ur Rehman
+ */
 @Service("coordinatesService")
 @Transactional
 public class CoordinatesServiceImpl implements CoordinatesService {

@@ -22,6 +22,10 @@ import java.util.Properties;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;;
 
+/**
+ * @author Afnan Ur Rehman
+ */
+
 @EnableJpaRepositories("com.uwindsor.project")
 @EnableTransactionManagement
 @Configuration
@@ -41,16 +45,6 @@ public class DataSourceConfig {
 
 		return dataSource;
 	}
-	
-//	 @Bean("entityManagerFactory")
-//	    public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource, JpaVendorAdapter jpaVendorAdapter) {
-//	        LocalContainerEntityManagerFactoryBean entityManagerFactory = new LocalContainerEntityManagerFactoryBean();
-//	        entityManagerFactory.setDataSource(dataSource());
-//	        
-//	        entityManagerFactory.setJpaVendorAdapter(jpaVendorAdapter);
-//	        
-//	        return entityManagerFactory;
-//	    }
 	 
 	 @Bean("entityManagerFactory")
 	    public LocalContainerEntityManagerFactoryBean entityManagerFactory() {

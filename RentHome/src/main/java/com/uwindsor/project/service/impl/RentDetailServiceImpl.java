@@ -9,7 +9,9 @@ import org.springframework.transaction.annotation.Transactional;
 import com.uwindsor.project.dao.RentDetailsRepository;
 import com.uwindsor.project.models.RentDetails;
 import com.uwindsor.project.service.RentDetailsService;
-
+/**
+ * @author Afnan Ur Rehman
+ */
 @Service("rentDetailServiceImpl")
 @Transactional
 public class RentDetailServiceImpl implements RentDetailsService {

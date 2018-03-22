@@ -13,7 +13,9 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
-
+/**
+ * @author Afnan Ur Rehman
+ */
 /*
  * 1) Configuration class dispatcher-servlet.xml
  * 2) The @ComponentScan annotation will be use to activate Spring MVC annotation scanning capability

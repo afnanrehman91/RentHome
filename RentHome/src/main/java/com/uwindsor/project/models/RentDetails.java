@@ -1,7 +1,5 @@
 package com.uwindsor.project.models;
 
-import java.sql.Date;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,7 +8,9 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
+/**
+ * @author Afnan Ur Rehman
+ */
 @Entity
 @Table(name = "rentDetails")
 public class RentDetails {
